@@ -2,19 +2,20 @@
 {
     margin: 0;
     padding: 10px;
-    height: 350px;
+    height: fit-content;
     width: 350px;
     border: 2px solid hsl(200, 50%, 50%);
-   
+    border-radius: 15px;    
 }
 
 
 
 .movie-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     gap: 20px; 
-    justify-content: center; 
+    justify-content: space-evenly; 
     padding: 20px;
+    flex-grow: 1;
 }
