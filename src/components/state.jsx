@@ -33,3 +33,17 @@ function FavouriteColor(){
 }
 
 export default FavouriteColor
+
+
+export function Counter(){
+
+    const [count,setCount]=useState(0)
+    let i=0;
+    return(
+        <>
+        <h1>The current count is {count}</h1>
+        <button onClick={()=>setCount(prev =>prev+1)}>Click to count</button>
+        </>
+    )
+}
+

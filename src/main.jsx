@@ -5,6 +5,7 @@ import App from './Pages/HOme.jsx'
 import Conditonal_Rendering from './components/Conditional-Rendering.jsx'
 import C_rendering from './Pages/C_rendering.jsx'
 import FavouriteColor from './components/state.jsx'
+import { Counter } from './components/state.jsx'
 
 
 
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
    <App />
   <C_rendering/>
   <FavouriteColor/>
+  <Counter />
   </>
 )
