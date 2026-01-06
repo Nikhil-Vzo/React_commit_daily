@@ -7,7 +7,7 @@ function FavouriteColor()
         const [color, setColor] = useState("red")
         return(
             <>
-            <h1>My fav color is {color}</h1>
+            <h1 style={{color: color}} >My fav color is {color}</h1>
             </>
         )
     }
