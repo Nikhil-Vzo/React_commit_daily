@@ -2,6 +2,9 @@
 // Each input has a change handler that calls setForm with the next state of the entire form. 
 // The { ...form } spread syntax ensures that the state object is replaced rather than mutated.
 
+
+
+import './a_s.css'
 import { useState } from "react";
 
 function Form(){
@@ -42,8 +45,26 @@ return(
             }}
             />
         </label>
-        
+        <label>
+            email :
+            <input value={form.email}
+            onChange={e=>{
+                setForm({
+                    ...form,
+                    email:e.target.value
+                });
+            }}
+            />
+        </label>
+
+        <h1>
+            {form.first_name}{' '}
+            {form.last_name}{' '}
+            {form.email}
+        </h1>
     </>
+
+    
 );
 }
 
