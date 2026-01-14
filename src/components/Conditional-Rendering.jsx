@@ -9,7 +9,7 @@ function Conditional_Rendering({isLogged,User_Name})
     }
     else
     {
-    return(<h1>Please login</h1>)
+    return(<h1>Please login to see the card</h1>)
     }
 }
 
