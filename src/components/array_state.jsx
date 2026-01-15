@@ -15,7 +15,7 @@ function Form(){
         {
             first_name:"Nikhil",
             last_name:"Yadav",
-            email:"ny@gmail.com",
+            email:"nikhilyadav200530@gmail.com",
         }
     );
 
